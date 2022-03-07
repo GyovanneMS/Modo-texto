@@ -11,7 +11,7 @@ class Convercao{
 
     double Convertido = VConv * Dolar;
 
-    System.out.print("O valor convertido é" + Convertido);
+    System.out.print("O valor convertido é " + Convertido);
 
 
     }
