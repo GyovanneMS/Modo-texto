@@ -5,9 +5,9 @@ class Desconto{
     Scanner ler = new Scanner(System.in);
 
     System.out.println("Valor da compra ");
-    int Compra = ler.nextInt();
+    double Compra = ler.nextDouble();
     System.out.println("Valor do desconto ");
-    int Desc = ler.nextInt();
+    double Desc = ler.nextDouble();
 
     double Dcompra = Compra / Desc;
     double Vfinal = Compra - Dcompra;

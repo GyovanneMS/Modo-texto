@@ -5,9 +5,9 @@ class Convercao{
     Scanner ler = new Scanner(System.in);
 
     System.out.println("Valor do Dolar");
-    int Dolar = ler.nextInt();
+    double Dolar = ler.nextDouble();
     System.out.println("Valor a ser convertido");
-    int VConv = ler.nextInt();
+    double VConv = ler.nextDouble();
 
     double Convertido = VConv * Dolar;
 
