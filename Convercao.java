@@ -9,11 +9,12 @@ class Convercao{
     System.out.println("Valor a ser convertido");
     double VConv = ler.nextDouble();
 
-    double Convertido = VConv * Dolar;
-
+    double Convertido = Dolar / VConv   ;
+                
     System.out.print("O valor convertido é " + Convertido);
 
 
     }
 }
 
+                                                                                                                                        
